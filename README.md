@@ -6,7 +6,7 @@ Opsworks cookbook repository for timakin projects
 {
     "deploy": {
         "nginx": {
-            "app_name": "xxx",
+            "app_name": "nameOfApplication",
             "server_name": "hostname"
         }
     }

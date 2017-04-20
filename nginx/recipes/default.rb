@@ -15,7 +15,6 @@ service "nginx" do
     action [ :enable, :start ]
 end
 
-
 template 'nginx.conf' do
   path      '/etc/nginx/nginx.conf'
   source    "nginx.conf.erb"
